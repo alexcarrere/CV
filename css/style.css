@@ -1,0 +1,331 @@
+/* Styles bootstrap */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-color: #E6E6E6;
+	border: none;
+	transition: all 0.7s;
+}
+
+.navbar-default {
+	background-color: rgba(0,0,0,0.4);
+}
+
+@media screen and (min-width: 768px){
+
+	.navbar-default .container{
+		display: flex;
+	}
+
+	.navbar-default .navbar-collapse {
+		margin: auto;
+	}
+}
+
+
+.navbar-scroll {
+	background-color: rgba(230, 230, 230, 1);
+}
+
+.navbar-scroll a{
+	color: black !important;
+}
+
+.navbar-scroll .active > a{
+	color: #F05F40 !important;
+	background-color: transparent;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #C0C0C0;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #F05F40;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #F05F40;
+	background-color: transparent;
+}
+
+/* Style Font awesome */
+
+#presentation .fa {
+	width: 1em;
+	text-align: center;
+}
+
+#presentation ul li {
+	margin-bottom: 0.7rem;
+	list-style-type: none;
+}
+
+#presentation ul li ul li {
+	margin-bottom: 0;
+	list-style-type: circle;
+}
+
+/* Styles Persos */
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#header {
+	background-image: url('../img/header.jpg');
+	background-color: #333333;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+}
+
+#header_content {
+	padding: 15em 0;
+	text-align: center;
+	color: #C0C0C0;
+	margin: auto;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Comfortaa', sans-serif;
+}
+
+h1 {
+	font-size: 3.5em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	margin-top: 1.5em;
+}
+
+h3 {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-size: 2.0em;
+	margin-bottom: 1.5em;
+}
+
+div > ul {
+	font-size: 1.3em;
+	list-style-type: square;
+}
+
+.color_date {
+	color: #A64C4C;
+}
+
+.logo {
+	background-color: #FFF;
+	padding: 1.5em;
+	width: 10em;
+	height: 10em;
+	border-radius: 10%;
+	border: 2px lightgrey solid;
+}
+
+.rank {
+	display: block;
+	padding: 0.5em 0;
+}
+
+.content_comp {
+	text-align: center;
+	background-color: #e6e6e6;
+	border: 1px lightgrey solid;
+	border-radius: 1.5em;
+	margin: 0.5em;
+	padding: 0.5em;
+	position: relative;
+}
+
+.content_comp > h3{
+	padding-top: 0.1em;
+}
+
+/* Ruban css */
+
+.ribbon_css {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+
+.ribbon_css span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#2989d8 0%, #1e5799 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon_css span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #1e5799;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #1e5799;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #1e5799;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #1e5799;
+}
+
+/* Fin ruban css */
+
+/* Ruban js */
+
+.ribbon_js {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon_js span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#C9C90E 0%, #ABC914 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon_js span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #ABC914;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #ABC914;
+}
+.ribbon_js span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #ABC914;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #ABC914;
+}
+
+/* Fin ruban js */
+
+/* Ruban pho */
+
+.ribbon_php {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon_php span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#5A69A6 0%, #505E94 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon_php span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #505E94;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #505E94;
+}
+.ribbon_php span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #505E94;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #505E94;
+}
+
+/* Fin ruban php */
+
+#img_exp_pro, #img_formation, #img_avatar {
+	border-radius: 1.5em;
+	max-width: 350px;
+	max-height: 350px;
+	opacity: 0.7;
+}
+
+.section {
+	padding: 3% 0 5% 0;
+}
+
+.section_grise {
+	background-color: #F0F0F0;
+}
+
+.section_blanche {
+	background-color: #FFFFFF;
+}
+
+#contact p {
+	font-size: 1.3em;
+}
+
+#footer {
+	background-color: #333333;
+	color: #777;
+	padding-top: 10px;
+}
